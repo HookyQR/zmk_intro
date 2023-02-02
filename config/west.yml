@@ -1,0 +1,13 @@
+manifest:
+  remotes:
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
+    - name: HookyQR
+      url-base: https://github.com/HookyQR
+  projects:
+    - name: zmk
+      remote: HookyQR
+      revision: intro
+      import: app/west.yml
+  self:
+    path: config
