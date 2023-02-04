@@ -7,7 +7,7 @@ manifest:
   projects:
     - name: zmk
       remote: HookyQR
-      revision: intro
+      revision: intro_debug
       import: app/west.yml
   self:
     path: config
