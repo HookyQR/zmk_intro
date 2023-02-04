@@ -17,3 +17,5 @@ include:
     shield: intro_left nice_view
   - board: seeeduino_xiao_ble
     shield: intro_right
+  - board: seeeduino_xiao_ble
+    shield: settings_reset
